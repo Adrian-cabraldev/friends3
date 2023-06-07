@@ -1,0 +1,161 @@
+nav {
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    margin-left: 0px;
+    border-bottom-right-radius:  30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+    position: absolute;
+}
+
+.barranav {
+    list-style: none;
+    display: flex;
+    margin-left: 68px;
+}
+
+.barranav li {
+    letter-spacing: 4px;
+    margin-left: 70px;
+}
+
+body {
+    margin: 0;
+    min-height:100vh;
+    display: flex;
+}
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: 0.3;
+}
+
+a:hover{
+    opacity:0.7;
+}
+
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    display: flex;
+}
+
+.texto {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
+    flex-direction: column;
+    margin-left: -1650%;
+    margin-top: 100%;
+}
+
+.lista {
+    flex-direction: column;
+    margin-top: 0%;
+    margin-left: -100%;
+    position: absolute;
+
+}
+
+
+.tudo {
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+}
+
+.cp {
+    max-width: 500%;
+    max-height: 500%;
+    position: absolute;
+    width: auto;
+    height: auto;
+    display: flex;
+}
+
+
+.imagem1 {
+    height: 220px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(189, 4, 4);
+    position: absolute;
+    left: 13%;
+    margin-top: 13%;
+    background: url(WhatsApp\ Image\ 2023-05-05\ at\ 10.27.20\ PM.jpeg)no-repeat;
+    background-size: cover;
+    border: 2px solid  black;
+}
+
+.imagem2 {
+    height: 220px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(189, 4, 4);
+    position: absolute;
+    left: 13%;
+    margin-top: 30%;
+    background: url(casada.png)no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+
+}
+
+.imagem3 {
+    height: 220px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(189, 4, 4);
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 19%;
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.imagem4 {
+    height: 220px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(189, 4, 4);
+    position: absolute;
+    margin-left: 66.5%;
+    margin-top: 30%;
+    background: url(WhatsApp\ Image\ 2023-06-06\ at\ 6.13.46\ PM.jpeg);
+    background-size: cover;
+    border: 2px solid black;
+    background-position: center center;
+}
+
+.imagem5 {
+    height: 220px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: rgb(189, 4, 4);
+    position: absolute;
+    margin-left: 66.5%;
+    margin-top: 13%;
+    background: url(WhatsApp\ Image\ 2023-05-16\ at\ 7.53.25\ AM.jpeg)no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+}
+
+.meio {
+    width: 100%;
+    height:100%;
+    display: flex;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.hiper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    border-radius: 10px;
+    position: relative;
+}

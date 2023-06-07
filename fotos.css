@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.amaral {
+    background-color: rgb(226, 34, 0);
+    border-radius: 5%;
+    width: 27%;
+    height: 300px;
+    margin-top: 8.5%;
+    left: 15%;
+    position: absolute;
+}
+
+.amaral p {
+    position: relative;
+    padding: 3%;
+    padding-top: 2%;
+    padding-left: 8.3%;
+    letter-spacing: 5%;
+    box-shadow: 2px black;
+    
+}
+
+p {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: larger;
+}
+
+.his {
+    background-color: rgb(226, 34, 0);
+    border-radius: 5%;
+    width: 27%;
+    height: 300px;
+    margin-top: 8.5%;
+    left: 38%;
+    position: absolute;
+    background: url(WhatsApp\ Image\ 2023-05-05\ at\ 10.26.28\ PM.jpeg)no-repeat;
+    background-size: cover;
+    border: 2px solid black;
+    justify-content: center;
+    
+}
+
+.his p {
+    position: relative;
+    padding: 3%;
+    padding-top: 2%;
+    padding-left: 12%;
+    letter-spacing: 5%;
+    box-shadow: 2px black;
+    
+}
+
+.turma {
+    background-color: rgb(226, 34, 0);
+    border-radius: 20px;
+    width: 60%;
+    height: 300px;
+    margin-top: 30%;
+    left: 20%;
+    position: absolute;
+    background: url(WhatsApp\ Image\ 2023-05-05\ at\ 10.36.08\ PM.jpeg);
+    background-size: cover;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: center;
+    background-position: center center;
+}
+
+.turma p {
+    position: relative;
+    padding: 3%;
+    padding-top: 2%;
+    padding-left: 40%;
+    box-shadow: 2px black;
+    
+}
+
+nav {
+    justify-content: center;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: red;
+    height: 70px;
+    width: 100%;
+    margin-left: 0px;
+    border-bottom-right-radius:  30px;
+    border-bottom-left-radius: 30px;
+    display: flex;
+}
+
+ .cp {
+    max-width: 20%;
+    max-height: 200px;
+    padding-bottom: 2%; 
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+
